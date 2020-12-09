@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Basic Rails app to let a user login. I will mainly use this app as a basis for future apps.
 
-Things you may want to cover:
+Uses foreman & Docker as well
 
-* Ruby version
+Rails 6.0.3.4
+Ruby 2.7.1
+Node 15.3.0
+npm 7.0.14
+yarn 1.22.10
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
