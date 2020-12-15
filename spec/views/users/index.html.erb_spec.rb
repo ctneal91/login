@@ -1,17 +1,19 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'users/index', type: :view do
   before(:each) do
     assign(:users, [
-      User.create!(
-        email: 'Email@email.com',
-        password: 'password'
-      ),
-      User.create!(
-        email: 'Email2@email.com',
-        password: 'password'
-      )
-    ])
+             User.create!(
+               email: 'Email@email.com',
+               password: 'password'
+             ),
+             User.create!(
+               email: 'Email2@email.com',
+               password: 'password'
+             )
+           ])
   end
 
   it 'renders a list of users' do

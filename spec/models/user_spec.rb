@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
@@ -23,7 +25,7 @@ RSpec.describe User, type: :model do
     subject.email = email
     expect(subject).to_not be_valid
   end
-  
+
   it 'is not valid when the email is not unique' do
     subject.email = email
     subject.password = password
